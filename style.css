@@ -1,0 +1,149 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.contan {
+    background: none;
+    position: absolute;
+    top: -55px;
+    left: -135px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px 0 100px 100px;
+    transform: rotate(45deg);
+    border: 5px solid black;
+    animation: color 4s ease-in-out  infinite ;
+    
+}
+.against1 {
+    position: absolute;
+    border: 5px solid black;
+    top:25px;
+    left: -50px;
+    width: 100px;
+    height: 100px;
+    background: none;
+    border-radius: 100px 0 100px 100px;
+    transform: rotate(-45deg);
+    animation: color 4s ease-in-out infinite 1.5s ;
+}
+@keyframes  color {
+    0% {
+       
+        
+        
+    }
+    20% {
+        border-top-color: white;
+       
+        
+    }
+    40% {
+      
+        border-left-color: white;
+        
+    }
+    60% {
+        
+        border-bottom-color: white ;
+        
+    }
+    80% {
+       
+        border-right-color: white;
+        
+    }
+
+}
+.contan1 {
+    position: absolute;
+    top: -55px;
+    left:35px;
+    background: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 100px 100px 100px;
+    transform: rotate(-45deg);
+    border: 5px solid black;
+    animation: color1 4s ease-in-out .5s infinite ;
+   
+ 
+  
+}
+@keyframes  color1 {
+    0% {
+       
+      
+    }
+    20% {
+        border-top-color: white;
+      
+        
+    }
+    40% {
+    
+        border-right-color: white;
+        
+        
+    }
+    60% {
+        
+        border-bottom-color: white ;
+        
+        
+    }
+    80% {
+        
+        border-left-color: white;
+     
+    }
+
+}
+.against {
+    
+    position: absolute;
+    border: 5px solid black;
+    top:-135px;
+    left: -50px;
+    width: 100px;
+    height: 100px;
+    background: none;
+    border-radius: 100px 100px 0 100px;
+    transform: rotate(45deg);
+    animation: color2 4s ease-in-out infinite 1s ;
+}
+@keyframes color2 {
+    0% {
+       
+      
+    }
+    20% {
+        border-bottom-color: white;
+      
+        
+    }
+    40% {
+    
+        border-left-color: white;
+        
+        
+    }
+    60% {
+        
+        border-top-color: white ;
+        
+        
+    }
+    80% {
+        
+        border-right-color: white;
+     
+    }
+
+}
+
